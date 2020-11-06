@@ -14,7 +14,7 @@ public class Main {
         boolean isExit = false;
         for (int i = 0; i < students.length; i++) {
             if (students[i].equals(input_name)) {
-                System.out.println("Postion of the students in the list " + input_name + " is: " + (i + 1));
+                System.out.println("Position of the students in the list " + input_name + " is: " + (i + 1));
                 isExit = true;
                 break;
             }
